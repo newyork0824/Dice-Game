@@ -1,0 +1,71 @@
+body {
+    background: #3fe0ab;
+  }
+  
+  
+  .dice-game-container {
+    margin: 0 auto;
+    width:50%;
+    background: white;
+    box-shadow: 0 0 10px black;
+    font-size: 1.5rem;
+    padding: 2em;
+    max-width:700px;
+    text-align:center;
+  
+    
+  }
+  
+  #playerTurn-el {
+    text-align: center;
+  }
+  
+  .play-area-el {
+    display:flex;
+    justify-content:space-around;
+    
+  }
+  
+  
+  
+  
+  #player-one-dice-el,
+  #player-two-dice-el {
+    background: #ffa200;
+   
+    text-align:center;
+    width:80%;
+      height:100px;
+    font-size: 5rem;
+    
+  }
+  
+  .active-dice {
+     box-shadow: 0 0 10px black;
+  }
+  
+  
+  
+  #roll-dice-btn{
+    
+    width:20%;
+    padding: 1em;
+    border-radius: 1em;
+    background: #ff0062;
+      cursor: pointer;
+    margin:0 auto;
+    display:none;
+    
+    
+  }
+  
+  #reset-btn {
+    width:20%;
+    padding: 1em;
+    border-radius: 1em;
+    background: #ff0062;
+    cursor: pointer;
+    display:none;
+    margin:0 auto;
+  }
+  
